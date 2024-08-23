@@ -24,7 +24,7 @@ prompt([
     {
         type: "number",
         name: "dice_size",
-        message: "What size of dice do you wanna rall?"
+        message: "What size of dice do you wanna roll?"
     }
 ]).then((answer) => {
     // console.log("Raw answer data from the prompt package is:" + answer);
